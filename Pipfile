@@ -9,8 +9,10 @@ djangorestframework = "*"
 markdown = "*"
 django-filter = "*"
 django-cors-headers = "*"
+django-rest-auth = {extras = ["with_social"], version = "*"}
 
 [dev-packages]
+pylint = "*"
 
 [requires]
 python_version = "3.9"
